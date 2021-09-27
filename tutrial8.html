@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&display=swap" rel="stylesheet">
+<link rel="icon" href="M.J.png">
+    <style>
+      *{padding: 0; margin: 0;}
+      *{font-family: 'Grechen Fuemen', cursive;}
+      *{padding: 10 0; text-align: center; text-decoration-color: black; opacity: 1;}
+      /* *{
+        padding: 0;
+        margin: 0;
+      } */
+      #textArea
+      {
+        text-align: left;
+      }  
+      .tableProp
+      {
+        text-align: center;
+        border: solid; 
+       }  
+       #login
+       {
+         text-align: right;
+       } 
+       .backImg
+       {
+         opacity: 1;
+         background-image: url(/pexels-bri-schneiter-346529.jpg);
+         background-size: 100% 100%;
+
+       } 
+    </style>
+    <!-- <link rel="stylesheet" href="/style.css"> -->
+    <title>Forms</title>
+  </head>
+ 
+  <body>
+    <!-- <div style="background-image: url('/pexels-irina-iriser-3220349\ \(1\).jpg');"> -->
+
+<div class="backImg">    
+    
+      <h1 style="text-transform: capitalize;">FEEDBACk</h1>
+    <div>
+      <li style="list-style-type: none;"><a href="http://Www.google.com" target="blank" >Google</a> <a href="http://www.facebook.com" target="blank" style="padding-left: 100px;">Facebook</a></li>
+      <a href="/Login.html" target="blank" id="login">Login Here</a>
+
+    </div>
+    <form action="backend.php">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" name="myName" id="name"  style="border-radius: 5px;"/>
+      </div>
+      <br />
+      <div>
+        <label for="role">Role</label>
+
+        <input type="text" name="myRole" id="role" style="border-radius: 5px;" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email</label>
+
+        <input type="email" name="myEmail" id="email" style="border-radius: 5px;" />
+      </div>
+      <br />
+
+      <div>
+        <label for="date">Date </label>
+        <input type="date" name="myDate" id="date" style="border-radius: 5px;" />
+      </div>
+      <br />
+
+      <div>
+        <label for="quentity">Quentity</label>
+        <input type="number" name="myquntity" id="quentity" style="border-radius: 5px;" />
+      </div>
+      <br />
+      <div>
+        <label for="a12">Are You eligibal?</label>
+        <input type="checkbox" name="myEligibilty" id="a12" checked style="border-radius: 5px;"/>
+      </div>
+      <br />
+      <div>
+        My Gender: <input type="radio" name="myGender" />Male
+        <input type="radio" name="myGender" /> Female
+        <input type="radio" name="myGender" />Other
+      </div>
+      <br />
+      <div>
+        Write Your Review: <br />
+        <textarea name="myText" cols="90" rows="10" placeholder="Begin From here" id="textArea"></textarea>
+      </div>
+      <br />
+      <div>
+        <label for="pet">Pet:</label>
+        <select name="myPet" id="pet">
+          <option value="nil" selected>Select Pet</option>
+          <option value="prt">Parrot</option>
+          <option value="pgn">pegion</option>
+          <option value="dg">Dog</option>
+          <option value="cat">Cat</option>
+          <option value="Bl">Bull</option>
+        </select>
+      </div>
+      <br />
+      <div>
+        <input style="background-color: lightblue; border-radius: 5px;" type="submit" value="Submit Now" />
+        <input style="border-radius: 5px ; background-color: lightblue;" type="reset"  value="Rest Now" />
+          <br>
+        </p>
+      </div>
+    </form>
+    <!-- <div>
+      <table class="tableProp" border="1" align="center" cellpadding="10" >
+        <tr>
+          <th>Name</th>
+          <th>Father Name</th>
+          <th>City</th>
+          <th rowspan="4">Subcriber</th>
+        </tr>
+        <tr>
+          <td>Ahmad</td>
+          <td>Shafiq</td>
+          <td>Arifwala</td>
+        </tr>
+        <tr>
+          <td>Ahmad</td>
+          <td>Shafiq</td>
+          <td>Arifwala</td>
+        </tr>
+        <tr>
+          <td>Ahmad</td>
+          <td>Shafiq</td>
+          <td>Arifwala</td>
+        </tr>
+  
+  
+      </table>
+      <label for="selects">Select Operator</label>
+      <select name="mySelection" id="selects">
+        <option value="nill" selected0>Select</option>
+        <option value="1person">Ahmad</option>
+        <option value="2person">Tayyab</option>
+        <option value="3person">Shafiq</option>
+        <option value="4person">Ghulam Nabi</option>
+        
+      </select> -->
+    </div>
+  </div>
+  </body>
+</html>
